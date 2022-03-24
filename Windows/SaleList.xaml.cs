@@ -13,7 +13,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using EquipmentRent3ISP9_7.EF;
-using EquipmentRent3ISP9_7.HelperClass;
 
 namespace EquipmentRent3ISP9_7.Windows
 {

@@ -25,5 +25,31 @@ namespace EquipmentRent3ISP9_7.Windows
             InitializeComponent();
             LV_Equipment.ItemsSource = HelperCl.Context.Product.ToList();
         }
+
+        private void btnAddNew_Click(object sender, RoutedEventArgs e)
+        {
+            AddEquipmentWindow addEquipmentWindow = new AddEquipmentWindow();
+            addEquipmentWindow.ShowDialog();
+        }
+
+        private void LV_Equipment_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void LV_Equipment_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void cmbSort_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
